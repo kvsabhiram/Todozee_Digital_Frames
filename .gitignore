@@ -1,0 +1,15 @@
+# Python virtual environments
+Digital_Frames/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env

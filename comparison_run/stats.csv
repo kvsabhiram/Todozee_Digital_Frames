@@ -1,0 +1,65 @@
+photo,pipeline,frame,photo_w,photo_h,faces_detected,max_face_h_px,person_crop_w,person_crop_h,resize_scale,upscaled,clarity_hint
+7360px,mediapipe,diwali_01,7360,4912,0,0,5455,4487,0.165,False,GOOD — enough resolution for a sharp result
+7360px,rembg,independence_day_01,7360,4912,0,0,5422,4483,0.077,False,GOOD — enough resolution for a sharp result
+1920px,rembg,onam_01,1920,1281,1,581,1027,1167,0.509,False,GOOD — enough resolution for a sharp result
+600px,mediapipe,lohri_01,640,427,1,205,334,389,2.587,True,LOW — input too small; output will look blurry
+1920px,rembg,independence_day_01,1920,1281,1,581,1027,1167,0.358,False,GOOD — enough resolution for a sharp result
+600px,rembg,christmas_01,640,427,1,205,334,389,1.748,True,MEDIUM — slightly soft; a larger photo is recommended
+2400px,rembg,independence_day_01,2400,1602,1,580,1115,1459,0.286,False,GOOD — enough resolution for a sharp result
+7360px,rembg,dussehra_01,7360,4912,0,0,5422,4483,0.172,False,GOOD — enough resolution for a sharp result
+7360px,mediapipe,christmas_01,7360,4912,0,0,5455,4487,0.125,False,GOOD — enough resolution for a sharp result
+1920px,rembg,christmas_01,1920,1281,1,581,1027,1167,0.583,False,GOOD — enough resolution for a sharp result
+7360px,mediapipe,onam_01,7360,4912,0,0,5455,4487,0.122,False,GOOD — enough resolution for a sharp result
+600px,mediapipe,independence_day_01,640,427,1,205,334,389,1.075,True,MEDIUM — slightly soft; a larger photo is recommended
+600px,mediapipe,eid_01,640,427,1,205,334,389,2.229,True,MEDIUM — slightly soft; a larger photo is recommended
+7360px,mediapipe,ganesh_chaturthi_01,7360,4912,0,0,5455,4487,0.184,False,GOOD — enough resolution for a sharp result
+1920px,mediapipe,dussehra_01,1920,1281,1,581,1027,1167,0.765,False,GOOD — enough resolution for a sharp result
+2400px,mediapipe,diwali_01,2400,1602,1,580,1115,1460,0.615,False,GOOD — enough resolution for a sharp result
+1920px,mediapipe,christmas_01,1920,1281,1,581,1027,1167,0.583,False,GOOD — enough resolution for a sharp result
+7360px,mediapipe,independence_day_01,7360,4912,0,0,5455,4487,0.077,False,GOOD — enough resolution for a sharp result
+1920px,rembg,diwali_01,1920,1281,1,581,1027,1167,0.769,False,GOOD — enough resolution for a sharp result
+1920px,rembg,lohri_01,1920,1281,1,581,1027,1167,0.841,False,GOOD — enough resolution for a sharp result
+1920px,mediapipe,onam_01,1920,1281,1,581,1027,1167,0.509,False,GOOD — enough resolution for a sharp result
+2400px,mediapipe,dussehra_01,2400,1602,1,580,1115,1460,0.611,False,GOOD — enough resolution for a sharp result
+2400px,rembg,diwali_01,2400,1602,1,580,1115,1459,0.615,False,GOOD — enough resolution for a sharp result
+2400px,mediapipe,ganesh_chaturthi_01,2400,1602,1,580,1115,1460,0.722,False,GOOD — enough resolution for a sharp result
+2400px,mediapipe,christmas_01,2400,1602,1,580,1115,1460,0.466,False,GOOD — enough resolution for a sharp result
+600px,rembg,dussehra_01,640,427,1,205,334,389,2.294,True,MEDIUM — slightly soft; a larger photo is recommended
+600px,rembg,eid_01,640,427,1,205,334,389,2.229,True,MEDIUM — slightly soft; a larger photo is recommended
+600px,rembg,lohri_01,640,427,1,205,334,389,2.587,True,LOW — input too small; output will look blurry
+1920px,mediapipe,independence_day_01,1920,1281,1,581,1027,1167,0.358,False,GOOD — enough resolution for a sharp result
+2400px,rembg,eid_01,2400,1602,1,580,1115,1459,0.594,False,GOOD — enough resolution for a sharp result
+1920px,mediapipe,diwali_01,1920,1281,1,581,1027,1167,0.769,False,GOOD — enough resolution for a sharp result
+2400px,mediapipe,lohri_01,2400,1602,1,580,1115,1460,0.712,False,GOOD — enough resolution for a sharp result
+7360px,mediapipe,dussehra_01,7360,4912,0,0,5455,4487,0.171,False,GOOD — enough resolution for a sharp result
+7360px,rembg,ganesh_chaturthi_01,7360,4912,0,0,5422,4483,0.185,False,GOOD — enough resolution for a sharp result
+2400px,rembg,lohri_01,2400,1602,1,580,1115,1459,0.713,False,GOOD — enough resolution for a sharp result
+600px,mediapipe,christmas_01,640,427,1,205,334,389,1.748,True,MEDIUM — slightly soft; a larger photo is recommended
+2400px,rembg,onam_01,2400,1602,1,580,1115,1459,0.407,False,GOOD — enough resolution for a sharp result
+7360px,rembg,lohri_01,7360,4912,0,0,5422,4483,0.159,False,GOOD — enough resolution for a sharp result
+600px,rembg,independence_day_01,640,427,1,205,334,389,1.075,True,MEDIUM — slightly soft; a larger photo is recommended
+1920px,mediapipe,ganesh_chaturthi_01,1920,1281,1,581,1027,1167,0.903,False,GOOD — enough resolution for a sharp result
+2400px,mediapipe,onam_01,2400,1602,1,580,1115,1460,0.407,False,GOOD — enough resolution for a sharp result
+7360px,mediapipe,eid_01,7360,4912,0,0,5455,4487,0.146,False,GOOD — enough resolution for a sharp result
+1920px,mediapipe,lohri_01,1920,1281,1,581,1027,1167,0.841,False,GOOD — enough resolution for a sharp result
+2400px,mediapipe,independence_day_01,2400,1602,1,580,1115,1460,0.286,False,GOOD — enough resolution for a sharp result
+600px,mediapipe,diwali_01,640,427,1,205,334,389,2.307,True,MEDIUM — slightly soft; a larger photo is recommended
+7360px,rembg,christmas_01,7360,4912,0,0,5422,4483,0.125,False,GOOD — enough resolution for a sharp result
+2400px,rembg,christmas_01,2400,1602,1,580,1115,1459,0.466,False,GOOD — enough resolution for a sharp result
+600px,mediapipe,dussehra_01,640,427,1,205,334,389,2.294,True,MEDIUM — slightly soft; a larger photo is recommended
+600px,rembg,onam_01,640,427,1,205,334,389,1.527,True,MEDIUM — slightly soft; a larger photo is recommended
+600px,mediapipe,ganesh_chaturthi_01,640,427,1,205,334,389,2.71,True,LOW — input too small; output will look blurry
+600px,mediapipe,onam_01,640,427,1,205,334,389,1.527,True,MEDIUM — slightly soft; a larger photo is recommended
+2400px,rembg,dussehra_01,2400,1602,1,580,1115,1459,0.612,False,GOOD — enough resolution for a sharp result
+1920px,rembg,dussehra_01,1920,1281,1,581,1027,1167,0.765,False,GOOD — enough resolution for a sharp result
+1920px,rembg,eid_01,1920,1281,1,581,1027,1167,0.743,False,GOOD — enough resolution for a sharp result
+600px,rembg,ganesh_chaturthi_01,640,427,1,205,334,389,2.71,True,LOW — input too small; output will look blurry
+7360px,rembg,onam_01,7360,4912,0,0,5422,4483,0.123,False,GOOD — enough resolution for a sharp result
+1920px,mediapipe,eid_01,1920,1281,1,581,1027,1167,0.743,False,GOOD — enough resolution for a sharp result
+7360px,rembg,eid_01,7360,4912,0,0,5422,4483,0.147,False,GOOD — enough resolution for a sharp result
+1920px,rembg,ganesh_chaturthi_01,1920,1281,1,581,1027,1167,0.903,False,GOOD — enough resolution for a sharp result
+2400px,mediapipe,eid_01,2400,1602,1,580,1115,1460,0.594,False,GOOD — enough resolution for a sharp result
+7360px,rembg,diwali_01,7360,4912,0,0,5422,4483,0.166,False,GOOD — enough resolution for a sharp result
+600px,rembg,diwali_01,640,427,1,205,334,389,2.307,True,MEDIUM — slightly soft; a larger photo is recommended
+2400px,rembg,ganesh_chaturthi_01,2400,1602,1,580,1115,1459,0.722,False,GOOD — enough resolution for a sharp result
+7360px,mediapipe,lohri_01,7360,4912,0,0,5455,4487,0.158,False,GOOD — enough resolution for a sharp result

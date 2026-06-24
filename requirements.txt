@@ -1,0 +1,17 @@
+# Todozee Festival Frame API — rembg pipeline (Python 3.12)
+# Web
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# Image / segmentation
+rembg==2.0.75            # U²-Net background removal (subject cutout)
+onnxruntime==1.26.0      # runs the rembg + YuNet ONNX models
+opencv-python==4.10.0.84 # compositing + YuNet face detection
+numpy==2.4.6
+Pillow==12.2.0
+
+# Face detection uses YuNet (models/face_detection_yunet_2023mar.onnx),
+# loaded via opencv-python (cv2.FaceDetectorYN) — no extra package needed.

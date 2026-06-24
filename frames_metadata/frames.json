@@ -1,0 +1,58 @@
+{
+  "diwali_01": {
+    "file": "diwali_01.png",
+    "category": "festival",
+    "slot": { "x": 490, "y": 770, "w": 1020, "h": 1020 },
+    "anchor": "center",
+    "fill": 0.88
+  },
+  "christmas_01": {
+    "file": "christmas_01.png",
+    "category": "festival",
+    "slot": { "x": 600, "y": 760, "w": 800, "h": 800 },
+    "anchor": "center",
+    "fill": 0.85
+  },
+  "onam_01": {
+    "file": "onam_01.png",
+    "category": "festival",
+    "slot": { "x": 610, "y": 870, "w": 740, "h": 660 },
+    "anchor": "top",
+    "fill": 0.90
+  },
+  "independence_day_01": {
+    "file": "independence_day_01.png",
+    "category": "national",
+    "slot": { "x": 790, "y": 890, "w": 440, "h": 440 },
+    "anchor": "center",
+    "fill": 0.95
+  },
+  "dussehra_01": {
+    "file": "dussehra_01.png",
+    "category": "festival",
+    "slot": { "x": 450, "y": 420, "w": 1100, "h": 1050 },
+    "anchor": "bottom",
+    "fill": 0.85
+  },
+  "lohri_01": {
+    "file": "lohri_01.png",
+    "category": "festival",
+    "slot": { "x": 280, "y": 380, "w": 1080, "h": 1300 },
+    "anchor": "top",
+    "fill": 0.80
+  },
+  "eid_01": {
+    "file": "eid_01.png",
+    "category": "festival",
+    "slot": { "x": 540, "y": 370, "w": 940, "h": 1020 },
+    "anchor": "center",
+    "fill": 0.85
+  },
+  "ganesh_chaturthi_01": {
+    "file": "ganesh_chaturthi_01.png",
+    "category": "festival",
+    "slot": { "x": 280, "y": 540, "w": 1180, "h": 1240 },
+    "anchor": "center",
+    "fill": 0.85
+  }
+}
