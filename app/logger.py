@@ -31,7 +31,7 @@ def setup_logger(name: str = "todozee", level: int = logging.INFO) -> logging.Lo
     logger.addHandler(ch)
 
     # ---- Rotating file ----
-    log_file: Path = settings.LOG_DIR / "todozee.log"
+    log_file: Path = settings.LOG_DIR / "todozee_digital_frames.log"
     fh = RotatingFileHandler(
         log_file, maxBytes=5 * 1024 * 1024, backupCount=5, encoding="utf-8"
     )

@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import Optional
 
 from fastapi import FastAPI, File, UploadFile, Form, HTTPException
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -155,6 +155,39 @@ async def process_image(
         "mime_type": "image/jpeg",
         "stats": stats,
     }
+
+
+@app.get("/logs", response_class=PlainTextResponse, tags=["Logs"])
+def view_logs(lines: int = 200):
+    """
+    View the most recent server log lines (newest at the bottom).
+
+    Use `?lines=N` to control how many lines to return (default 200).
+    Handy for checking when requests hit the server without SSHing in.
+    """
+    log_file: Path = settings.LOG_DIR / "todozee_digital_frames.log"
+    if not log_file.exists():
+        raise HTTPException(status_code=404, detail="Log file not found yet.")
+
+    lines = max(1, min(lines, 5000))  # clamp to a sane range
+    with open(log_file, "r", encoding="utf-8", errors="replace") as f:
+        all_lines = f.readlines()
+    tail = all_lines[-lines:]
+    return "".join(tail)
+
+
+@app.get("/logs/download", tags=["Logs"])
+def download_logs():
+    """Download the full current log file (todozee_digital_frames.log)."""
+    log_file: Path = settings.LOG_DIR / "todozee_digital_frames.log"
+    if not log_file.exists():
+        raise HTTPException(status_code=404, detail="Log file not found yet.")
+    logger.info("Log file downloaded")
+    return FileResponse(
+        path=str(log_file),
+        media_type="text/plain",
+        filename="todozee_digital_frames.log",
+    )
 
 
 @app.get("/download/{filename}", tags=["Process"])
