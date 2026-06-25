@@ -13,3 +13,11 @@ __pycache__/
 
 # Environment variables
 .env
+
+comparison_run/
+original_frames/
+outputs/
+test_images/
+test_run/
+uploads/
+frames/
