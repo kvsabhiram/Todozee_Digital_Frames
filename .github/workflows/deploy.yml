@@ -22,15 +22,16 @@ jobs:
           command_timeout: 20m
           script: |
             set -e
+            echo ">> Pulling latest code, rebuilding, installing deps (as todozee)"
+            sudo -u todozee bash -s <<'DEPLOY'
+            set -e
             cd /opt/todozee/app
-            echo ">> Pulling latest code"
-            sudo -u todozee git fetch --all --prune
-            sudo -u todozee git reset --hard origin/main
-            echo ">> Rebuilding frames/"
-            sudo -u todozee bash build_frames.sh
-            echo ">> Installing dependencies"
-            sudo -u todozee .venv/bin/pip install --upgrade pip wheel >/dev/null
-            sudo -u todozee .venv/bin/pip install -r requirements.txt
+            git fetch --all --prune
+            git reset --hard origin/main
+            bash build_frames.sh
+            .venv/bin/pip install --upgrade pip wheel >/dev/null
+            .venv/bin/pip install -r requirements.txt
+            DEPLOY
             echo ">> Restarting service"
             sudo systemctl restart todozee
             sleep 5
