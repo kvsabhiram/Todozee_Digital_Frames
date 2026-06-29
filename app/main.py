@@ -15,6 +15,7 @@ import uuid
 import shutil
 import logging
 import base64
+import mimetypes
 from pathlib import Path
 from typing import Optional
 
@@ -198,9 +199,10 @@ def download(filename: str):
         logger.warning(f"Download miss: {filename}")
         raise HTTPException(status_code=404, detail="File not found.")
     logger.info(f"Downloading {filename}")
+    media_type = mimetypes.guess_type(filename)[0] or "application/octet-stream"
     return FileResponse(
         path=str(file_path),
-        media_type="image/png",
+        media_type=media_type,
         filename=filename,
     )
 
