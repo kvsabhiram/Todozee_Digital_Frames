@@ -1,0 +1,4 @@
+# Dev / CI-only dependencies (not installed on the production server)
+ruff==0.6.9        # linter — CI runs an error-level subset as a gate
+pytest==8.3.3      # test runner for the smoke tests
+httpx==0.27.2      # required by fastapi.testclient.TestClient
